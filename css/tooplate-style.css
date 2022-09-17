@@ -138,6 +138,10 @@ b, strong {
   animation-delay: 4s;
 }
 
+.bi-heart-fill{
+  color: deeppink;
+}
+
 @keyframes BottomTotop {
   0% {
     opacity: 0;

@@ -80,6 +80,11 @@ b, strong {
   font-weight: bold;
 }
 
+h4 {
+  color: #212121;
+  margin: 24px 0;
+}
+
 .custom-btn {
   background: #eee;
   color: #5b5b5b;
@@ -147,7 +152,6 @@ b, strong {
 }
 
 .data-science-projects {
-  margin: 25px;
   text-align: justify;
 }
 

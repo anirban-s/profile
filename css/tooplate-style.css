@@ -142,6 +142,15 @@ b, strong {
   color: deeppink;
 }
 
+.project-img {
+  width: 300px;
+}
+
+.data-science-projects {
+  margin: 80px;
+  text-align: justify;
+}
+
 @keyframes BottomTotop {
   0% {
     opacity: 0;

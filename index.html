@@ -40,6 +40,9 @@
                         <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
                     </li>
                     <li class="nav-item">
+                      <a href="#data-science" class="nav-link"><span data-hover="Data Science Projects">Data Science</span></a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
                     </li>
                     <li class="nav-item">
@@ -95,7 +98,7 @@
         </div>
     </section>
 
-    <!-- PROJECTS -->
+    <!-- WEB DEV PROJECTS -->
     <section class="project py-5" id="project">
         <div class="container">
                 
@@ -103,7 +106,7 @@
                   <div class="col-lg-11 text-center mx-auto col-12">
 
                       <div class="col-lg-8 mx-auto">
-                        <h2>Things I have Created </h2>
+                        <h2>Things I have Created using HTML, CSS and JavaScript</h2>
                       </div>
 
                       <div class="owl-carousel owl-theme">
@@ -166,6 +169,60 @@
                   </div>
                 </div>
         </div>
+    </section>
+
+    <!-- KEY DATA SCIENCE -->
+    <section class="data-science py-5" id="data-science">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-11 text-center mx-auto col-12"> 
+            <div class="col-lg-8 mx-auto">
+              <h2>Key Data Science Projects </h2>
+            </div>
+
+            <div class="row data-science-projects">
+              <div class="col-lg-5 mr-lg-3 col-12">
+                <img class="project-img" src="images/project/sudoku.png" alt="project-img">
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <h4>A Real Time Sudoku Solver</h4>
+                <ul>
+                  <li>
+                    • OpenCV to capture the image and find the 4 contour of the grid and cells. Also for image processing to prevent overfit and finally to display the result.
+                  </li>
+                  <li>
+                    • Subset of the Chars74K dataset to train my model. (I have another project with MNIST dataset.)
+                  </li>
+                  <li>
+                    • Tensorflow and Keras to train the model to recognize the (hand written) digits.
+                  </li>
+                  <li>
+                    • Backtracking algorithm to solve the sudoku grid.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row data-science-projects">
+              <div class="col-lg-5 mr-lg-3 col-12">
+                <img class="project-img" src="images/project/facemask.png" alt="project-img">
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <h4>Facemask Detection Using OpenCV</h4>
+                <ul>
+                  <li>
+                    • I created a live face mask detection machine learning project using OpenCV, Tensorflow, keras. OpenCV is used to capture the live video feed. I have created a CNN model using Tensorflow and Keras library. The model is trained with 600 labeled images. The model has 99% accuracy. 
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FEATURES -->
